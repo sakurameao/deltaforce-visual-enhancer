@@ -1,0 +1,11 @@
+# 构建脚本必须保持 LF，否则 macOS 上无法执行
+*.sh        text eol=lf
+Makefile    text eol=lf
+*.ps1       text eol=crlf
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+
+# 明确二进制
+*.dylib     binary
+*.ipa       binary
+*.metallib  binary
