@@ -1,0 +1,17 @@
+# 构建产物
+build/
+*.dylib
+*.o
+*.dSYM/
+
+# 注入产物
+*.ipa
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# 系统
+.DS_Store
+Thumbs.db
