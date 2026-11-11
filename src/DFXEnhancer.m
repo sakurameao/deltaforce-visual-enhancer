@@ -58,6 +58,8 @@ static id dfx_nextDrawable(id self, SEL _cmd)
     NSUInteger                  _texW;
     NSUInteger                  _texH;
     MTLPixelFormat              _texFmt;
+    DFXParams                   _params;
+    BOOL                        _enabled;
 }
 
 + (instancetype)shared
